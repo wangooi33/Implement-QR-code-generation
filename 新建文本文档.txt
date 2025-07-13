@@ -1,0 +1,9 @@
+二维码：
+1.版本（要携带的数据量）共40个版本，版本1：21x21
+2.纠错能力  M：15%
+3.库的安装：
+	（1）在linux系统上输入：sudo apt install libqrencode4 libqrencode-dev
+	（2）直接下载源码包 GitHub
+4.数据以数组方式进行存储
+5.每个字节的最低有效位是1，则黑
+6.第三方库：gcc qrcode_demo.c -o qrcode_demo -lqrencode
